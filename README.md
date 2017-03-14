@@ -5,7 +5,7 @@ Chat using http server access logs. Inspired by XKCD [1810](https://xkcd.com/181
 ### Usage example:
 
 ```
-sudo tail -f /var/log/nginx/access.log | ./http_talk -host google.com
+sudo tail -f /var/log/nginx/access.log | ./http_talk -host remotehost.com
 ```
 
 Options:
